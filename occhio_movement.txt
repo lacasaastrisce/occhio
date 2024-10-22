@@ -1,0 +1,24 @@
+
+
+
+Provo a descrivere i movimenti per motori in modalità ibrida tra fisico e codice
+
+
+# descrizione motori
+I motri completano una rivoluzione i 200 step
+
+M1 
+Gestisce l'asse x
+Ha un solo senso di direzione, la meccanica gestisce il suo andare da sx a dx
+Vanno gestite, velocità e pause
+
+M2
+Gestisce la rotazione sull'asse z
+Si muove cambiando il senso di marcia
+Va definito il suo range d'azione (orientativamente +75 -75 pari a 135°)
+Vanno gestite, velocità e pause
+
+
+Dinamiche
+In linea di massima M1 ha dei movimeti più lineari, mentre M2 in relazione a M1 crea il movimento.
+M2 ha bisogno di un controllo più veloce, ha il solo vincolo di essere nello 0 quando vogliamo che sia nello 0 assieme ad M1
